@@ -1,0 +1,29 @@
+.work-thumb {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work-list {
+  display: flex;
+}
+.list-about-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.list-about:not(:last-child) {
+  margin-right: 30px;
+}
+.list-about {
+  width: calc((100% - 90px) / 4);
+}
