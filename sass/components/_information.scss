@@ -27,11 +27,14 @@
 
 .list-img {
   display: flex;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.list-img__item:not(:last-child) {
-  margin-right: 30px;
-}
+// .list-img__item:not(:last-child) {
+//   margin-right: 30px;
+// }
 .backdrop-box {
   position: relative;
 }
