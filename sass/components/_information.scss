@@ -24,10 +24,12 @@
 .information-about {
   margin-bottom: 50px;
 }
-.img-item {
+
+.list-img {
   display: flex;
 }
-.img-item:not(:last-child) {
+
+.list-img__item:not(:last-child) {
   margin-right: 30px;
 }
 .backdrop-box {
